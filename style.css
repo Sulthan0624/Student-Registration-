@@ -1,0 +1,79 @@
+body
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sulthan1
+{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  z-index: 5;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  padding: 20px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+  border: 10px inset #fff;
+}
+.sulthan2
+{
+  position: fixed;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%,-50%);
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border: 10px inset #fff;
+  height: 25%;
+  width: 15%;
+  text-align:center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.3);
+  color: black;
+  font-weight: bold;
+  margin: 15px;
+}
+.banner-image{
+  background-image: url(pexels-pixabay-159490.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  filter: blur(1px);
+}
+#para{
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.904);
+}
+button{
+  padding: 4px;
+  font-size: 1em;
+  font-family:sans-serif;
+  cursor: pointer;
+  border: none;
+  transition: .4s ease-in;
+}
+#insert:hover{
+  box-shadow: inset -140px 0px 0px 0px rgb(189, 208, 243),inset 140px 0px 0px 0px rgb(194, 228, 243);
+}
+#read:hover{
+  box-shadow: inset -140px 0px 0px 0px rgb(189, 208, 243),inset 140px 0px 0px 0px rgb(194, 228, 243);
+}
+#update:hover{
+  box-shadow: inset -140px 0px 0px 0px rgb(189, 208, 243),inset 140px 0px 0px 0px rgb(194, 228, 243);
+}
+#delete:hover{
+  box-shadow: inset -140px 0px 0px 0px rgb(189, 208, 243),inset 140px 0px 0px 0px rgb(194, 228, 243);
+}

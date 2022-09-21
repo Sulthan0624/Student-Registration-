@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="banner-image">
+      <h1 id="para">
+        <center>Student Registration Form</center>
+      </h1>
+    </div>
+    <div class="sulthan1">
+      Name :<input type="text" name="cname" id="name"/><br><br>
+      Father Name:<input type="text" name="fname" id="fathername"/><br><br>
+      Mother Name:<input type="text" name="mname" id="mothername"/><br><br>
+      Select Your Gender: <select name="gender" id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+    </select><br><br>
+      Address :<input type="text" name="add" id="address"/><br><br>
+      Select Your State:<select name="state" id ="yourstate">
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Himachal Pradesh">Himachal Pradesh</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Manipur">Manipur</option>
+        <option value="Meghalaya">Meghalaya</option>
+        <option value="Mizoram">Mizoram</option>
+        <option value="Nagaland">Nagaland</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Sikkim">Sikkim</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Tripura">Tripura</option>
+        <option value="Uttarakhand">Uttarakhand</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="West Bengal">West Bengal</option>
+    </select><br><br>
+      Mobile Number :<input type="number" name="mob" id="mobile"/><br><br>
+      Date-Of-Birth : <input type="date" name="dateofbirth" id="dob"/><br><br>
+      Email-Id : <input type="email" name="mail" id="email"/><br><br>
+      Enter Your (School/College) Name:<input type="text" name="education" id="schoolcollege"/><br><br>
+      Enter Your Religion: <select name="religions" id="religion">
+        <option value="Null">Null</option>
+        <option value="Hindu">Hindu</option>
+        <option value="Muslim">Muslim</option>
+        <option value="Christian">Christian</option>
+    </select><br><br>
+    Select Your Course:<select name="course" id ="course">
+      <option value="PYTHON">Python</option>
+      <option value="AI&ML">AI&ML</option>
+      <option value="JAVA">Java</option>
+      <option value="WEB DEVELOPMENT">Web Development</option>
+      <option value="APP DEVELOPMENT">App Development</option>
+      <option value="DATA SCIENCE">Data Science</option>
+  </select><br><br>
+    </div>
+    <div class="sulthan2">
+      <button id="insert">
+        Insert
+      </button><br><br>
+      <button id="read">
+        Read
+      </button><br><br>
+      <button id="update">
+        Update
+      </button><br><br>
+      <button id="delete">
+        Delete
+      </button><br><br>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+    <script src="./firebase.js">
+    </script>
+    <script src="./myscript.js">
+    </script>
+  </body>
+</html>
